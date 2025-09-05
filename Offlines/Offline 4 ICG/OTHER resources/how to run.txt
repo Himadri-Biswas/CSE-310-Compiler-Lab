@@ -1,0 +1,21 @@
+himadri@DESKTOP-EHQGO4U:/mnt/e/3-1/3-1 our LABS/310 Compiler LAB/Offline3/antlr4-resources/antlr4-resources/antlr4-skeletons/cpp$ source /mnt/e/3-1/3-1\ our\ LABS/OWN\ ANTLER/antlr4_work/antlr4_venv/bin/activate
+(antlr4_venv) himadri@DESKTOP-EHQGO4U:/mnt/e/3-1/3-1 our LABS/310 Compiler LAB/Offline3/antlr4-resources/antlr4-resources/antlr4-skeletons/cpp$ bash run-script.sh 
+Usage: ./Ctester.out <input_file>
+(antlr4_venv) himadri@DESKTOP-EHQGO4U:/mnt/e/3-1/3-1 our LABS/310 Compiler LAB/Offline3/antlr4-resources/antlr4-resources/antlr4-skeletons/cpp$ ./C
+C8086Lexer.cpp               C8086Lexer.o                 C8086Parser.h                C8086ParserBaseListener.cpp  Ctester.cpp
+C8086Lexer.g4                C8086Lexer.tokens            C8086Parser.interp           C8086ParserBaseListener.h    Ctester.o
+C8086Lexer.h                 C8086Parser.cpp              C8086Parser.o                C8086ParserListener.cpp      Ctester.out
+C8086Lexer.interp            C8086Parser.g4               C8086Parser.tokens           C8086ParserListener.h        
+(antlr4_venv) himadri@DESKTOP-EHQGO4U:/mnt/e/3-1/3-1 our LABS/310 Compiler LAB/Offline3/antlr4-resources/antlr4-resources/antlr4-skeletons/cpp$ ./Ctester.
+Ctester.cpp  Ctester.o    Ctester.out  
+(antlr4_venv) himadri@DESKTOP-EHQGO4U:/mnt/e/3-1/3-1 our LABS/310 Compiler LAB/Offline3/antlr4-resources/antlr4-resources/antlr4-skeletons/cpp$ ./Ctester.out input/test
+.c 
+Parsing completed. Check the output files for details.
+(antlr4_venv) himadri@DESKTOP-EHQGO4U:/mnt/e/3-1/3-1 our LABS/310 Compiler LAB/Offline3/antlr4-resources/antlr4-resources/antlr4-skeletons/cpp$ ./C
+C8086Lexer.cpp               C8086Lexer.o                 C8086Parser.h                C8086ParserBaseListener.cpp  Ctester.cpp
+C8086Lexer.g4                C8086Lexer.tokens            C8086Parser.interp           C8086ParserBaseListener.h    Ctester.o
+C8086Lexer.h                 C8086Parser.cpp              C8086Parser.o                C8086ParserListener.cpp      Ctester.out
+C8086Lexer.interp            C8086Parser.g4               C8086Parser.tokens           C8086ParserListener.h
+(antlr4_venv) himadri@DESKTOP-EHQGO4U:/mnt/e/3-1/3-1 our LABS/310 Compiler LAB/Offline3/antlr4-resources/antlr4-resources/antlr4-skeletons/cpp$ ./Ctester.out input/test
+_syntax_error.c 
+Parsing completed. Check the output files for details.
