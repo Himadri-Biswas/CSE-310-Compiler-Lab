@@ -2,7 +2,7 @@
 
 A complete, hand-built compiler that translates a **C-like language into runnable 8086 assembly**, implemented from scratch across four progressive phases — symbol table, lexical analysis, syntactic & semantic analysis, and intermediate code generation.
 
-Built as part of the **CSE 310: Compiler Design Lab** course. Every phase was designed, debugged, and integrated individually before being layered into the full pipeline.
+Built as part of the **CSE 310: Compiler Sessional** course. Every phase was designed, debugged, and integrated individually before being layered into the full pipeline.
 
 ---
 
@@ -537,6 +537,6 @@ CSE 310 repo/
 
 **Peephole optimizer convergence:** The optimizer needed to be run in a loop because one pass could expose new opportunities (e.g., eliminating a `PUSH`/`POP` pair might reveal a redundant `MOV` that was previously separated by those instructions). The loop runs until the assembly stops changing.
 
-```markdown
+<!-- ```markdown
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-```
+``` -->
